@@ -10,15 +10,17 @@ Welcome to GDB Online.
 
 int main()
 {
-    int n1;
+    int n1, n2;
     
-    printf("Digite um número: ");
+    printf("Digite sua idade: ");
     scanf("%i", &n1);
-
     
-    if(n1 % 2 == 0){
-        printf("O número %i é par", n1);
+    printf("Digite quantos anos você trabalhou: ");
+    scanf("%i", &n2);
+    
+    if((n1 >= 65) || (n2 >= 30) || ((n1 >= 60)&& (n2 >= 25))){
+        printf("Voce está aposentado!");
     }else{
-        printf("O número %i é impar", n1);
+        printf("Voce nao está aposentado");
     }
 }

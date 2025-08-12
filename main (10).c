@@ -10,15 +10,26 @@ Welcome to GDB Online.
 
 int main()
 {
-    int n1;
+    int n1, n3 = 1;
+    int n2 = 1;
     
-    printf("Digite um número: ");
-    scanf("%i", &n1);
-
+    printf("\n------ Usando for ------\n");
     
-    if(n1 % 2 == 0){
-        printf("O número %i é par", n1);
-    }else{
-        printf("O número %i é impar", n1);
+    for(n1 = 1; n1 <= 100; n1++){
+        printf("%i,", n1);
     }
+    
+    printf("\n------ Usando while ------\n");
+    
+    while(n2 <= 100){
+        printf("%i,", n2);
+        n2++;
+    }
+    
+    printf("\n------ Usando do-while ------\n");
+    
+    do{
+        printf("%i,", n3);
+        n3++;
+    }while (n3 <= 100);
 }

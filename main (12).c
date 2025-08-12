@@ -10,15 +10,13 @@ Welcome to GDB Online.
 
 int main()
 {
-    int n1;
+    int n1, i;
     
     printf("Digite um número: ");
     scanf("%i", &n1);
 
-    
-    if(n1 % 2 == 0){
-        printf("O número %i é par", n1);
-    }else{
-        printf("O número %i é impar", n1);
-    }
+    for(i = n1; i >= 0; i--)
+        if(i % 2 == 0){
+            printf("%i, ", i);
+        }
 }

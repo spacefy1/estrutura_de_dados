@@ -12,13 +12,11 @@ int main()
 {
     int n1;
     
-    printf("Digite um número: ");
-    scanf("%i", &n1);
-
-    
-    if(n1 % 2 == 0){
-        printf("O número %i é par", n1);
-    }else{
-        printf("O número %i é impar", n1);
+    for(n1 = 1; n1 < 16; n1++){
+        if(n1 % 3 == 0){
+            printf("%i,", n1);
+        
+    }
+        
     }
 }
