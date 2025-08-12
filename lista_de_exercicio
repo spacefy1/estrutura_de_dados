@@ -1,0 +1,55 @@
+Lista de Exercícios 01 – Revisão em C
+1. Faça um programa que leia um número inteiro e o imprima.
+2. Peça ao usuário para digitar três valores inteiros e imprima a soma deles.
+3. Leia um número real e imprima o resultado do quadrado desse número.
+4. Leia um número real e imprima a quinta parte deste número.
+5. Leia um número inteiro e imprima o seu antecessor e o seu sucessor.
+6. Faça um programa que receba dois números e mostre qual deles é o maior.
+7. Faça um programa que receba um número inteiro e verifique se este número e par ou ímpar.
+8. Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles, assim
+como a diferença existente entre ambos.
+9. Escreva o menu de opções abaixo. Leia a opção do usuário e execute a operação escolhida.
+Escreva uma mensagem de erro se a opção for inválida.
+Escolha a opção:
+1- Soma de 2 números.
+2- Diferença entre 2 números (maior pelo menor).
+3- Produto entre 2 números.
+4- Divisão entre 2 números (o denominador não pode ser zero).
+Opção:
+10. Leia a idade e o tempo de serviço de um trabalhador e escreva se ele pode ou não se
+aposentar. As condições para aposentadoria são:
+• Ter pelo menos 65 anos,
+• Ou ter trabalhado pelo menos 30 anos,
+• Ou ter pelo menos 60 anos e trabalhado pelo menos 25 anos.
+11. Faça um programa que determine o mostre os cinco primeiros múltiplos de 3, considerando
+números maiores que 0.
+Disciplina: Estrutura de Dados I
+Professor: Cássio Capucho Peçanha
+12. Escreva um programa que escreva na tela, de 1 até 100, de 1 em 1, 3 vezes. A primeira vez
+deve usar a estrutura de repetição for, a segunda while, e a terceira do while.
+13. Faça um algoritmo utilizando o comando while que mostra uma contagem regressiva na tela,
+iniciando em 10 e terminando em 0. Mostrar uma mensagem "FIM!” após a contagem.
+14. Faça um programa que leia um número inteiro positivo par N e imprima todos os números
+pares de 0 até N em ordem decrescente.
+15. Elabore um programa que faça leitura de vários números inteiros, até que se digite um
+número negativo. O programa tem que retornar o maior e o menor número lido.
+16. Faça um programa que possua um vetor denominado A que armazene 6 números inteiros. O
+programa deve executar os seguintes passos:
+• Atribua os seguintes valores a esse vetor: 1, 0, 5, -2, -5, 7.
+• Armazene em uma variável inteira (simples) a soma entre os valores das posições A[0], A[1] e
+A[5] do vetor e mostre na tela esta soma.
+• Modifique o vetor na posição 4, atribuindo a esta posição o valor 100.
+• Mostre na tela cada valor do vetor A, um em cada linha.
+17.Crie um programa que lê 6 valores inteiros e, em seguida, mostre na tela os valores lidos.
+18. Leia um vetor de 10 posições, depois contar e escrever quantos valores pares ele possui.
+19. Faça um programa que leia dois vetores de 10 elementos. Crie um vetor que seja a
+intersecção entre os 2 vetores anteriores, ou seja, que contém apenas os números que estão
+em ambos os vetores. Não deve conter números repetidos.
+20. Escreva um programa que leia um número inteiro positivo n e em seguida imprima n linhas do
+chamado Triangulo de Pascal:
+1
+1 1
+1 2 1
+1 3 3 1
+1 4 6 4 1
+1 5 10 10 5 1
